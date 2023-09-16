@@ -1,0 +1,848 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.container {
+	position: relative;
+	background-image: url(fon.png)
+}
+
+.container::after {
+	position: absolute;
+  	top: 4000px;
+  	left: 4000px;
+  	width: 100%;
+  	height: 100px;
+  	background-color: white;
+  	z-index: -1;
+}
+body {
+	background-image: url(fon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	border-color: white;
+	border-radius: 30px;
+	padding: 15px;
+	width: 130px;
+	height: 65px;
+	float: right;
+  	margin-right: 60px;
+  	font-size: 20px;
+  	margin-top: 40px;
+  	justify-content: center;
+}
+
+.register {
+	width: 155px;
+}
+
+button:hover {
+	color: black;
+	background-color: white;
+	transition-duration: 0.75s;
+	transition-timing-function: linear;
+	transition: all 0.3s ease;
+}
+
+nav {
+	color: white;
+	position: relative;
+	top: 250px;
+	padding-left: 100px;
+	font-size: 25px;
+	justify-content: center;
+	line-height: 60px;
+}
+
+#opis {
+	position: relative;
+	padding-left: 220px;
+	text-shadow: 7px 7px 7px black;
+}
+
+#opisa {
+position: static;
+text-indent: 40px;
+font-size: 25px;
+word-wrap: break-word;
+width: 650px;
+text-shadow: 7px 7px 7px black;
+}
+
+
+#nachalo {
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  border-color: white;
+  border-radius: 30px;
+  padding: 15px;
+  width: 450px;
+  left: -70px;
+  top: 70px;
+  height: 140px;
+  font-size: 40px;
+  justify-content: center;
+}
+
+#nachalo:hover {
+	color: black;
+	transform: scale(1.2);
+	background-color: white;
+	transition-duration: 0.75s;
+	transition-timing-function: linear;
+	transition: all 0.3s ease;
+}
+
+.VK {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 70%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.inst {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 50px;
+	border-radius: 80px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.telega {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 100px;
+	border-radius: 70%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.face {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 150px;
+	border-radius: 70%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.block {
+	background-color: white;
+	position: absolute;
+	top: 4px;
+	width: 200px;
+	height: 200px;
+	border: 20px white;
+}
+
+main {
+	background-color: white;
+	position: absolute;
+  	top: 900px;
+  	width: 100%;
+  	border-radius: 90px;
+}
+
+#medved {
+	position: absolute;
+	text-indent: 40px;
+	font-size: 30px;
+	margin-left: 1000px;
+	margin-top: -160px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#cassiopeya {
+	position: absolute;
+	text-indent: 40px;
+	font-size: 30px;
+	margin-left: 1000px;
+	margin-top: 30px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#deva {
+	position: absolute;
+	text-indent: 40px;
+	font-size: 30px;
+	margin-left: 1000px;
+	margin-top: 210px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#strela {
+	position: absolute;
+	text-indent: 40px;
+	font-size: 30px;
+	margin-left: 1000px;
+	margin-top: 440px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+.medved {
+	position: relative;
+	top: 190px;
+	width: 700px;
+	height: 500px;
+	margin-left: 200px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+.cassiopeya {
+	position: relative;
+	top: 380px;
+	width: 700px;
+	height: 500px;
+	margin-left: 200px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+.deva {
+	position: relative;
+	top: 570px;
+	width: 700px;
+	height: 500px;
+	margin-left: 200px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+.strela {
+	position: relative;
+	top: 760px;
+	width: 700px;
+	height: 500px;
+	margin-left: 200px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+main img {
+	display: block;
+	border-radius: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 3720px;
+}
+
+#med {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 240px;
+	font-size: 55px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#cas {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 440px;
+	font-size: 55px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#dev {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 620px;
+	font-size: 55px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+#str {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 850px;
+	font-size: 55px;
+	animation-name: text;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+}
+
+.VK:hover {
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.inst:hover {
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.telega:hover {
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.face:hover {
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+@keyframes text {
+	from {
+		
+		opacity: 0;
+	}
+
+	to {
+	
+		opacity: 1;
+	}
+}
+
+@media (max-width: 480px) {
+/* Стили для мобильных устройств с шириной экрана до 480 пикселей */
+body {
+	background-image: url(fon.png);
+	background-repeat: no-repeat;
+	background-size: 500px 750px;
+	background-color: white;
+}
+
+button {
+width: 100px;
+height: 50px;
+font-size: 15px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+nav {
+top: 150px;
+padding-left: 0px;
+}
+
+#opis {
+padding-left: 150px;
+top: -80px;
+text-shadow: 7px 7px 7px black;
+}
+
+#opisa {
+font-size: 16px;
+line-height: 37px;
+margin-top: -60px;
+margin-left: 20px;
+width: 440px;
+word-break: break-word;
+text-shadow: 7px 7px 7px black;
+}
+
+#nachalo {
+width: 250px;
+height: 100px;
+font-size: 30px;
+margin-top: 200px;
+left: 120px;
+}
+
+.inst {
+width: 30px;
+height: 30px;
+margin: 5px;
+top: 45px;
+left: 0px;
+}
+
+.telega {
+width: 30px;
+height: 30px;
+margin: 5px;
+top: 90px;
+left: 0px;
+}
+
+.face {
+width: 30px;
+height: 30px;
+margin: 5px;
+top: 135px;
+left: 0px;
+}
+
+.VK {
+width: 30px;
+height: 30px;
+margin: 5px;
+}
+
+main {
+top: 650px;
+}
+
+#medved {
+margin-left: 20px;
+margin-top: 280px;
+font-size: 20px;
+}
+
+#cassiopeya {
+margin-left: 20px;
+margin-top: 725px;
+font-size: 20px;
+}
+
+#deva {
+margin-left: 20px;
+margin-top: 1175px;
+font-size: 20px;
+}
+
+#strela {
+margin-left: 20px;
+margin-top: 1625px;
+font-size: 20px;
+}
+
+.medved, .cassiopeya, .deva, .strela {
+width: 350px;
+height: 250px;
+margin-left: 70px;
+}
+
+.medved {
+	top: 250px;
+}
+
+.cassiopeya {
+	top: 700px;
+}
+
+.deva {
+	top: 1150px;
+}
+
+.strela {
+	top: 1600px;
+}
+
+#med {
+	margin-left: 80px;
+	font-size: 35px;
+	top: -40px;
+	width: 350px;
+}
+
+#cas {
+	margin-left: 60px;
+	font-size: 35px;
+	top: 460px;
+	width: 379px;
+}
+
+#dev {
+	margin-left: 97px;
+	font-size: 35px;
+	top: 980px;
+}
+
+#str {
+	margin-left: 65px;
+	font-size: 35px;
+	top: 1450px;
+	width: 379px;
+}
+
+footer {
+	background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 420px;
+    text-align: center;
+    position: absolute;
+    top: 3720px;
+}
+}
+
+@media (max-width: 390px) {
+	main {
+		width: 490px;
+	}
+	.register {
+		position: relative;
+		left: 100px;
+	}
+
+	.vhod {
+		position: relative;
+		left: 100px;
+	}
+
+	footer {
+	background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 430px;
+    text-align: center;
+    position: absolute;
+    top: 3720px;
+}
+}
+
+@media (max-width: 440px) {
+	main {
+		width: 500px;
+	}
+
+	footer {
+	background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 440px;
+    text-align: center;
+    position: absolute;
+    top: 3720px;
+}
+}
+
+@media screen and (max-width:780px) {
+	body {
+	background-image: url(fon.png);
+	background-repeat: no-repeat;
+	background-size: 1310px 995px;
+	background-color: white;
+	}
+
+	#nachalo {
+	width: 330px;
+	height: 135px;
+	font-size: 40px;
+	margin-top: 120px;
+	left: 860px;
+	}
+
+	#opis {
+		padding-left: 117px;
+		text-shadow: 7px 7px 7px black;
+		top: -80px;
+		font-size: 70px;
+	}
+
+	#opisa {
+	position: static;
+	text-indent: 40px;
+	font-size: 29px;
+	word-wrap: break-word;
+	width: 650px;
+	text-shadow: 7px 7px 7px black;
+	margin-top: -60px;
+	}
+
+	.register {
+		position: relative;
+		left: 455px;
+		top: 35px;
+	}
+
+	.vhod {
+		position: relative;
+		left: 455px;
+		top: 35px;
+	}
+
+	.inst {
+	width: 53px;
+	height: 53px;
+	margin: 5px;
+	left: 63px;
+	top: 58px;
+	}
+
+	.telega {
+	width: 53px;
+	height: 53px;
+	margin: 5px;
+	left: 126px;
+	top: 58px;
+	}
+
+	.face {
+	width: 53px;
+	height: 53px;
+	margin: 5px;
+	left: 189px;
+	top: 58px;
+	}
+
+	.VK {
+	width: 53px;
+	height: 53px;
+	margin: 5px;
+	top: 58px;
+	}
+
+	.VK, .inst, .face, .telega {
+		margin-left: 55px;
+	}
+
+	main {
+		width: 1290px;
+	}
+
+	.medved, .cassiopeya, .deva, .strela {
+	width: 560px;
+	height: 450px;
+	margin-left: 100px;
+	}
+
+	#med {
+	margin-left: 750px;
+	font-size: 48px;
+	top: -40px;
+	width: 478px;
+	}
+
+	#cas {
+	margin-left: 750px;
+	font-size: 48px;
+	top: 400px;
+	width: 520px;
+	}
+
+	#dev {
+	margin-left: 750px;
+	font-size: 48px;
+	top: 850px;
+	margin-left: 800px;
+	}
+
+	#str {
+	margin-left: 750px;
+	font-size: 48px;
+	top: 1276px;
+	width: 498px;
+	}
+
+	#medved {
+	margin-left: 690px;
+	margin-top: -167px;
+	font-size: 34px;
+	}
+
+	#cassiopeya {
+	margin-left: 693px;
+	margin-top: 15px;
+	font-size: 33px;
+	}
+
+	#deva {
+	margin-left: 700px;
+	margin-top: 183px;
+	font-size: 33px;
+	}
+
+	#strela {
+	margin-left: 700px;
+	margin-top: 401px;
+	font-size: 34px;
+	}
+	footer {
+	    background-color: #333;
+	    color: #fff;
+	    padding: 30px;
+	    width: 1230px;
+	    text-align: center;
+	    position: absolute;
+	    top: 3620px;
+	}
+
+	footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: Arial;
+}
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+	background-image: url(fon.png);
+	background-repeat: no-repeat;
+	background-size: 1200px 826px;
+	background-color: white;
+	}
+
+	.VK, .telega, .face, .inst {
+		margin-left: 40px;
+	}
+
+	.register {
+		position: relative;
+		left: 25px;
+		top: -13px;
+	}
+
+	.vhod {
+		position: relative;
+		left: 25px;
+		top: -13px;
+	}
+
+	#opis {
+    position: relative;
+    padding-left: 115px;
+    text-shadow: 7px 7px 7px black;
+    top: -70px;
+}
+
+	#opisa {
+    position: static;
+    text-indent: 40px;
+    font-size: 25px;
+    word-wrap: break-word;
+    width: 650px;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-shadow: 7px 7px 7px black;
+}
+
+	#opisa {
+    position: static;
+    text-indent: 40px;
+    font-size: 25px;
+    word-wrap: break-word;
+    width: 650px;
+    margin-top: -80px;
+    margin-left: -58px;
+    text-shadow: 10px 0px 30px black;
+}
+
+	#nachalo {
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    border-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 330px;
+    height: 120px;
+    float: left;
+    left: 770px;
+    font-size: 40px;
+    margin-top: 125px;
+    justify-content: center;
+	}
+
+	main {
+    width: 1200px;
+    top: 660px;
+	}
+
+	.medved, .cassiopeya, .deva, .strela {
+    width: 470px;
+    height: 353px;
+    margin-left: 70px;
+	}
+
+	#med {
+	margin-left: 560px;
+    font-size: 42px;
+	top: -47px;
+	width: 478px;
+	}
+
+	#cas {
+    margin-left: 560px;
+    font-size: 39px;
+    top: 293px;
+    width: 520px;
+	}
+
+	#dev {
+    margin-left: 560px;
+    font-size: 41px;
+    top: 658px;
+    width: 349px;
+	}
+
+	#str {
+    margin-left: 560px;
+    font-size: 40px;
+    top: 971px;
+    width: 436px;
+	}
+
+	#medved {
+    margin-left: 565px;
+    margin-top: -99px;
+    font-size: 30px;
+	}
+
+	#cassiopeya {
+	margin-left: 565px;
+	margin-top: 83px;
+	font-size: 29px;
+	}
+
+	#deva {
+	margin-left: 565px;
+	margin-top: 276px;
+	font-size: 27px;
+	}
+
+	#strela {
+	margin-left: 565px;
+	margin-top: 466px;
+	font-size: 30px;
+	}
+
+	footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 1140px;
+    text-align: center;
+    position: absolute;
+    top: 3000px;
+}
+}
